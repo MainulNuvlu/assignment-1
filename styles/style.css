@@ -536,7 +536,7 @@ select {
 }
 
 
-form input[type="text"] {
+.donate input[type="text"] {
 
     position: static;
     width: 1032px;
@@ -558,4 +558,109 @@ form input[type="text"] {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newsletter {
+    margin: 0px 160px 80px 160px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 395px;
+    border-radius: 24px;
+    gap: 16px;
+}
+
+
+.newsletter-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+.newsletter-heading {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    /* gap: 16px; */
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.newsletter-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+
+.wrap {
+    position: static;
+    width: 750px;
+    height: 235px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; */
+    gap: 24;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 64px;
+}
+
+
+
+.newsletter input[type="text"] {
+    padding: 18px 400px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+}
+
+.newsletter button {
+    padding: 15px 40px 15px 40px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #006A50;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+
+.spam {
+    text-align: center;
+    margin-top: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
 }
