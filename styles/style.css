@@ -647,7 +647,7 @@ select {
 }
 
 .newsletter button {
-    padding: 15px 40px 15px 40px;
+    padding: 17px 40px 17px 40px;
     border-radius: 0px 8px 8px 0px;
     background-color: #006A50;
     color: white;
@@ -663,4 +663,38 @@ select {
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    padding-top: 30px;
+}
+
+footer hr {
+    width: 1120px;
+    color: rgb(14, 14, 14);
+    opacity: .1;
 }
