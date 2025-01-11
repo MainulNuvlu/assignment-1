@@ -698,3 +698,18 @@ footer hr {
     color: rgb(14, 14, 14);
     opacity: .1;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+button:hover {
+    color: red;
+}
