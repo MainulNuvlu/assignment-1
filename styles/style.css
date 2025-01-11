@@ -574,7 +574,7 @@ select {
     border: none;
     background: rgb(255, 255, 255);
     text-align: center;
-    color: rgba(14, 14, 14, 0.3);
+    /* color: rgba(14, 14, 14, 0.3); */
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 32px;
@@ -663,8 +663,12 @@ select {
     border: none;
     font-size: 16px;
     font-weight: 400;
-    color: rgba(14, 14, 14, 0.3);
+    /* color: rgba(14, 14, 14, 0.3); */
+
 }
+
+
+
 
 .newsletter button {
     padding: 17px 40px 17px 40px;
@@ -755,4 +759,10 @@ button:hover {
     transition: .2s;
     cursor: pointer;
     background-color: #87eebe;
+}
+
+
+
+::placeholder {
+    opacity: .4;
 }
