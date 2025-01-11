@@ -63,8 +63,8 @@ body {
     /* margin: auto; */
     background-color: #C6E4D6;
     border-radius: 24px;
-    /* padding: 80px 60px; */
-    gap: 60px;
+    padding: 0px 60px;
+    /* gap: 60px; */
 }
 
 .header-description {
@@ -84,6 +84,7 @@ body {
 .header-main-title {
     font-size: 56px;
     font-weight: 800;
+    width: 600px;
     color: #0e0e0e;
     margin-bottom: 24px;
     margin-top: 24px;
