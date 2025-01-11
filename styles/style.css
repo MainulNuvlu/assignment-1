@@ -405,22 +405,36 @@ select {
 
 
 .news {
-    margin: 20px 160px 80px 160px;
+    margin: 0px 160px 80px 160px;
 }
 
 .satellite {
     border-radius: 24px;
+    margin-bottom: 40px;
+}
+
+.younus {
+    height: 306px;
+    width: 408px;
+    border-radius: 24px;
+    margin-bottom: 40px;
+}
+
+.money {
+    height: 306px;
+    width: 408px;
+    border-radius: 24px;
+    margin-bottom: 40px;
 }
 
 .news-holder {
-
     background-color: white;
     border-radius: 24px;
     padding: 48px;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 
 }
 
@@ -428,9 +442,9 @@ select {
     padding: 32px;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
     flex-direction: column;
-    padding-top: ;
+    margin-bottom: 24px;
 }
 
 .time span {
@@ -534,6 +548,11 @@ select {
     margin: 0px 24px;
     width: 1280px;
 
+}
+
+
+.pre-selected {
+    background-color: #C6E4D6;
 }
 
 
@@ -735,5 +754,5 @@ button:hover {
     border: 0px solid palegreen;
     transition: .2s;
     cursor: pointer;
-    background-color: #C6E4D6;
+    background-color: #87eebe;
 }
