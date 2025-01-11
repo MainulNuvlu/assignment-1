@@ -276,6 +276,8 @@ section {
     background-image: url(/assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: top left;
+    background-position-x: 24px;
+    background-position-y: 40px;
     padding: 48px 24px;
     background-color: white;
     border-radius: 16px;
