@@ -40,7 +40,7 @@ body {
 .header-nav .nav-button {
     height: 52px;
     width: 116px;
-    padding: 15px 30px;
+    padding: ;
     font-family: "fira Sans";
     border-radius: 8px;
     font-size: 18px;
@@ -532,6 +532,7 @@ select {
     color: rgba(14, 14, 14, 0.7);
     text-align: center;
     margin: 0px 24px;
+    width: 1280px;
 
 }
 
@@ -637,7 +638,7 @@ select {
 
 
 
-.newsletter input[type="text"] {
+.newsletter input[type="email"] {
     padding: 18px 400px 18px 40px;
     border-radius: 8px 0px 0px 8px;
     border: none;
@@ -710,6 +711,29 @@ footer hr {
 
 
 
+.nav-button:hover {
+    color: rgb(2, 21, 17);
+    border: 0px solid palegreen;
+    transition: .2s;
+    cursor: pointer;
+    background-color: #09e883;
+}
+
+
 button:hover {
-    color: red;
+    color: rgb(2, 21, 17);
+    border: 0px solid palegreen;
+    box-shadow: 0 .5em .5em -.4em;
+    transition: .2s;
+    cursor: pointer;
+    background-color: #09e883;
+}
+
+
+
+.amount:hover {
+    border: 0px solid palegreen;
+    transition: .2s;
+    cursor: pointer;
+    background-color: #C6E4D6;
 }
